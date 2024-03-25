@@ -1,0 +1,50 @@
+{
+	"name": "@bunstacks/elysia-infront",
+	"version": "0.0.1-beta",
+	"private": true,
+	"scripts": {
+		"enable": "chmod +x $1",
+		"dev": "./dev.bun.sh"
+	},
+	"dependencies": {
+		"@elysiajs/eden": "latest",
+		"@orama/orama": "2.0.11",
+		"@orama/plugin-data-persistence": "2.0.11",
+		"@rspress/mdx-rs": "latest",
+		"@sentry/bun": "^7.108.0",
+		"@tanstack/eslint-plugin-query": "5.28.6",
+		"@tanstack/react-actions": "0.0.1-beta.53",
+		"@tanstack/react-cross-context": "1.15.10",
+		"@tanstack/react-form": "latest",
+		"@tanstack/react-loaders": "0.0.1-beta.53",
+		"@tanstack/react-location": "3.7.4",
+		"@tanstack/react-query": "5.28.6",
+		"@tanstack/react-store": "0.3.1",
+		"drizzle-orm": "latest",
+		"ohash": "latest",
+		"radix3": "latest",
+		"ramda": "0.29.1",
+		"react": "canary",
+		"react-dom": "canary",
+		"unstorage": "latest",
+		"unwasm": "latest"
+	},
+	"devDependencies": {
+		"@biomejs/biome": "latest",
+		"@elysiajs/elf": "latest",
+		"@types/jsdom": "latest",
+		"@types/node": "^20",
+		"@types/ramda": "0.29.11",
+		"@types/react": "^18",
+		"@types/react-dom": "^18",
+		"@types/wallabyjs": "latest",
+		"consola": "latest",
+		"drizzle-kit": "latest",
+		"elysia": "latest",
+		"eslint": "^8",
+		"jsdom": "latest",
+		"toml-eslint-parser": "0.9.3",
+		"typescript": "^5",
+		"@types/bun": "latest"
+	}
+}
